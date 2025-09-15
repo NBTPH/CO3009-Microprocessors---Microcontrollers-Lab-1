@@ -86,7 +86,7 @@ int main(void)
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
   MX_GPIO_Init();
-  uint8_t state1, state2, counter1, counter2;
+  int state1, state2, counter1, counter2;
   //state: red = 0, green = 1, yellow = 2
   state1 = 0;
   state2 = 1;
